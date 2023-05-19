@@ -1,0 +1,42 @@
+<!--
+Made BY: Eylon Fayena 318910676 & Bar Kobi 208026864
+-->
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="StyleSheet.css">
+    <link rel="icon" type="image/x-icon" href="./src/icons/favicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'm-On-It</title>
+</head>
+<body>
+    <div class="taskMain">
+        <h1>I'm On It</h1>
+        <h2>Every Dream Needs A Plan!</h2>
+        <div class="parent">
+            <input type="text" id="taskInput" minlength="1" maxlength="30" placeholder="Enter New Task!">
+            <button id="btnAddtasks" onclick="AddmyTasks()">+</button>
+        </div>
+
+    </div>
+    <div class="parent">
+        <div class="classTasks" id="allTasks">
+            <h3 class="SectionHeader">CHECKLIST</h3>
+        </div>
+        <div class="classDone" id="tasksDone">
+            <h3 class="SectionHeader">DONE</h3>
+        </div>
+    </div>
+
+    <footer>
+        <h5>© Made By: Eylon Fayena & Bar Kobi</h5>
+    </footer>
+    <script src="Scripts.js"></script>
+    
+</body>
+</html>
